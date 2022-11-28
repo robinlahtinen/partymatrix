@@ -8,7 +8,7 @@ TBA
 
 ## Quick start
 
-TBA
+Requires at least an Arduino and a Neopixel based LED strip.
 
 ## Versioning
 
