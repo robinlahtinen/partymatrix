@@ -2,6 +2,9 @@
 
 LED Matrix that visualizes music.
 
+<a href="https://github.com/robinlahtinen/partymatrix/actions"><img alt="GitHub repository checks state" src="https://badgen.net/github/checks/robinlahtinen/partymatrix"></a>
+<a href="https://github.com/robinlahtinen/partymatrix/blob/main/LICENSE"><img alt="GitHub repository checks state" src="https://badgen.net/github/license/robinlahtinen/partymatrix"></a>
+
 # About
 
 TBA
