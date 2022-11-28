@@ -15,7 +15,7 @@ TBA
 For transparency into the release cycle and in striving to maintain backward compatibility, Partymatrix is
 maintained under the [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) guidelines.
 
-See the [Releases](https://github.com/mdlightdev/material-design-light/releases) section of the GitHub project for
+See the [Releases](https://github.com/robinlahtinen/partymatrix/releases) section of the GitHub project for
 changelogs for each release version of Partymatrix.
 
 ## Copyright and license
