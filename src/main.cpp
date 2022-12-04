@@ -5,6 +5,7 @@
 #include <Arduino.h> // Arduino standard library.
 #include <FastLED.h> // FastLED library.
 #include <main.h> // Header file.
+#include <SimpleSpectrum.h> // Visualization: Simple Spectrum.
 
 static const bool DEBUG_MODE = true; // Debug mode toggle.
 
@@ -13,7 +14,7 @@ static const uint8_t MIC_PIN = A3; // Pin for the microphone input.
 
 static const int NUM_LEDS = 150; // Number of LEDs.
 static const int LED_POWER_VOLTS = 5; // Volt cap for LEDs.
-static const int LED_POWER_MILLIAMPS = 7000; // Ampere cap for LEDs.
+static const int LED_POWER_MILLIAMPS = 8000; // Ampere cap for LEDs.
 
 // TODO: Add button pin consts and switches.
 
@@ -43,7 +44,7 @@ void setup() {
 void loop() {
     int sound = analogRead(MIC_PIN);
 
-    int numLedsToLight = map(sound, 0, 15, 0, NUM_LEDS); // Map the microphone reading to the amount of LEDs.
+    int numLedsToLight = map(sound, 0, 500, 0, NUM_LEDS); // Map the microphone reading to the amount of LEDs.
 
     // First, clear the existing led values
     FastLED.clear();
@@ -57,8 +58,6 @@ void loop() {
     if (isDebug()) {
         Serial.println(sound); // Reading from the microphone.
     }
-
-    delay(30);
 }
 
 /**
