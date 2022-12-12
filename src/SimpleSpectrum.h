@@ -7,4 +7,10 @@
 
 void doVisualizeSimpleSpectrum(int strength);
 
+void spectrumbars();
+
+uint16_t getMicPin();
+
+uint16_t XY(uint16_t x, uint16_t y);
+
 #endif //PARTYMATRIX_SIMPLESPECTRUM_H
