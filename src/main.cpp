@@ -55,8 +55,6 @@ void setup() {
 
 /**
  * Main loop.
- *
- * Contains placeholder test.
  */
 void loop() {
     micReading = getMicReading();
